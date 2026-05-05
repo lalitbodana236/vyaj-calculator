@@ -11,11 +11,11 @@ export function BreakdownTable({ rows, mode }: BreakdownTableProps) {
     <div className="table-card">
       <div className="table-header">
         <div>
-          <h3>Breakdown / विवरण</h3>
+          <h3>Interest Breakdown</h3>
           <p>
             {mode === "simple"
-              ? "Monthly simple interest view"
-              : "Year-wise compound growth view"}
+              ? "Month-by-month simple interest view"
+              : "Year-by-year compound growth view"}
           </p>
         </div>
       </div>
@@ -24,11 +24,11 @@ export function BreakdownTable({ rows, mode }: BreakdownTableProps) {
         <table>
           <thead>
             <tr>
-              <th>Period / अवधि</th>
-              <th>Opening / शुरुआती राशि</th>
-              <th>Interest / ब्याज</th>
-              <th>Closing / कुल राशि</th>
-              <th>Time</th>
+              <th>Period</th>
+              <th>Opening amount</th>
+              <th>Interest</th>
+              <th>Closing amount</th>
+              <th>Time used</th>
             </tr>
           </thead>
           <tbody>
