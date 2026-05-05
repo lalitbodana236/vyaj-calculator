@@ -7,8 +7,8 @@ interface SummaryCardProps {
 export function SummaryCard({ label, value, accent = false }: SummaryCardProps) {
   return (
     <article className={`summary-card${accent ? " accent" : ""}`}>
-      <p>{label}</p>
-      <strong>{value}</strong>
+      <p className="summary-label">{label}</p>
+      <strong className="summary-value">{value}</strong>
     </article>
   );
 }

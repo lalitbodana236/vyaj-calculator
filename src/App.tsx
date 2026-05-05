@@ -110,7 +110,7 @@ export default function App() {
           </div>
 
           <div className="hero-content">
-            <div>
+            <div className="hero-copy-block">
               <p className="eyebrow">Interest Calculator / ब्याज कैलकुलेटर</p>
               <h1>Simple and compound interest, built for daily Indian use.</h1>
               <p className="hero-copy">

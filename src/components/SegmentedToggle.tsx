@@ -25,7 +25,7 @@ export function SegmentedToggle<T extends string>({
           className={option.value === value ? "active" : ""}
           onClick={() => onChange(option.value)}
         >
-          {option.label}
+          <span>{option.label}</span>
         </button>
       ))}
     </div>

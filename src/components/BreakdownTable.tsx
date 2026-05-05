@@ -25,9 +25,9 @@ export function BreakdownTable({ rows, mode }: BreakdownTableProps) {
           <thead>
             <tr>
               <th>Period / अवधि</th>
-              <th>Opening / शुरुआत</th>
+              <th>Opening / शुरुआती राशि</th>
               <th>Interest / ब्याज</th>
-              <th>Closing / कुल</th>
+              <th>Closing / कुल राशि</th>
               <th>Time</th>
             </tr>
           </thead>
